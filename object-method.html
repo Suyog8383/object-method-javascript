@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<script>
+  //   const obj = { name: "suyog" };
+  //   // console.log(obj.hasOwnProperty("city"));
+  //   // delete obj.name;
+  //   //Object.seal(obj);
+  //   //Object.freeze(obj);
+  //   obj.name = "kiran"; //update value
+  //   console.log("@SN ", obj.name);
+  //   console.log("@SN ", Object.keys(obj));
+
+  // const object1 = {
+  //   rollNo: 42,
+  // };
+  // Object.freeze(object1);
+  // console.log(Object.isFrozen(object1)); //check object is freeze or not
+  // //  false
+
+  // Object.freeze(object1); //make freeze
+
+  // console.log(Object.isFrozen(object1)); //check object is freeze or not
+  // //  true
+
+  const obj = { name: "rahul" };
+  Object.freeze(obj);
+  console.log(Object.isSealed(obj));
+</script>
